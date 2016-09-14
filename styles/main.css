@@ -1,0 +1,81 @@
+
+html {
+   font-family: 'monoid'
+}
+/*###############################
+#################################
+## Header with Login & Signup buttons
+## use background color to help 
+## distinguish each
+#################################
+################################*/
+header {
+  background-color: lightblue;
+
+}
+
+
+/*###############################
+#################################
+## Main  with H1 Kitty Corner 
+##            h2 Cats Pjamas
+#################################
+################################*/
+main {
+  background-color: lightyellow;
+}
+
+/*###############################
+#################################
+## Article   with Title
+##            by cat name
+## some sort of stylized bar?
+##{} clear? 
+##
+#################################
+################################*/
+article {
+  background-color: darkyellow;
+}
+/*###############################
+#################################
+## section class="post-content"
+## contains post content
+## nothing appears to complex here
+#################################
+################################*/
+.post-content {
+  background-color: orange;
+}
+/*###############################
+#################################
+## aside id="top-cats"
+## img border radius: 100;
+## text appears truncated
+## to the right of artice/ post content
+##
+##
+#################################
+################################*/
+
+#top-cats {
+  background-color: #00bcd4
+}
+
+ .round {
+  border-radius: 50%;
+ }
+/*###############################
+#################################
+## footer
+## copyright
+## nav with about and contact
+##
+##
+#################################
+################################*/
+footer {
+  background-color: #e2f7fd;
+}
+
+
