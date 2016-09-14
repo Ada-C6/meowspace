@@ -2,6 +2,10 @@
 html {
    font-family: 'monoid'
 }
+
+a {
+  text-decoration: none;
+}
 /*###############################
 #################################
 ## Header with Login & Signup buttons
@@ -11,9 +15,11 @@ html {
 ################################*/
 header {
   background-color: lightblue;
-
 }
 
+nav {
+  text-decoration: none;
+}
 
 /*###############################
 #################################
@@ -23,6 +29,8 @@ header {
 ################################*/
 main {
   background-color: lightyellow;
+  max-width: 75%;
+  clear:right;
 }
 
 /*###############################
@@ -36,6 +44,11 @@ main {
 ################################*/
 article {
   background-color: darkyellow;
+  clear:right;
+}
+
+aside {
+  float:right;
 }
 /*###############################
 #################################
@@ -60,11 +73,12 @@ article {
 
 #top-cats {
   background-color: #00bcd4
+
 }
 
- .round {
+.round {
   border-radius: 50%;
- }
+}
 /*###############################
 #################################
 ## footer
@@ -77,5 +91,21 @@ article {
 footer {
   background-color: #e2f7fd;
 }
+
+h4 {
+  float: left;
+  font-size: 1rem;
+}
+
+#disclaimer {
+  font-size: 0.5rem;
+  text-align:center;
+}
+
+nav, ul {
+  font-size: rem;
+}
+
+
 
 
