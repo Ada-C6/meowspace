@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
 }
 
+
 a {
   text-decoration: none;
   color: #2c5154;
@@ -15,6 +16,7 @@ header, footer {
   background-color: #5688A9;
   position: absolute;
   width: 98%;
+  clear: both;
 }
 
 header h1 {
@@ -43,8 +45,32 @@ nav li {
   border-radius: 15px;
 }
 
+main {
+  padding-top: 180px;
+}
+
 nav {
   clear: both;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.main-articles {
+  float: left;
+  max-width: 70%;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+#top-cats {
+  float: right;
+  max-width: 25%;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
 }
 
 footer {
@@ -69,5 +95,4 @@ footer ul {
   padding-top: 20px;
   width: 85%;
   margin-right: -10px;
-
 }
