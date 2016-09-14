@@ -1,0 +1,59 @@
+/*Dealing with the header*/
+
+header {
+  background-color: #F25F5C;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+/*nav tab styling*/
+header nav ul {
+  list-style-type: none;
+  float: right;
+  max-width: 35%;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+header h1 {
+  float: left;
+  max-width: 60%;
+}
+
+header a {
+  color: #2F4858;
+}
+
+header a:hover {
+  background-color: #CFD11A;
+}
+
+main {
+  margin: 85px 0 0 0;
+}
+
+main article {
+  float: left;
+  max-width: 75%;
+  border-style: solid;
+}
+
+#top-cats {
+  float: right;
+  max-width: 20%;
+  border-style: solid;
+}
+
+#top-cats section {
+  border-top: 1px solid red; 
+
+}
+
+footer {
+  clear: both;
+}
