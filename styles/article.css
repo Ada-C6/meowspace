@@ -21,7 +21,6 @@ main {
   padding: 20px 10px 20px 50px;
   width: 100%;
   box-sizing: border-box;
-
   /* Make it look like meme text */
   color: white;
   font-family: impact, sans-serif;
@@ -33,7 +32,11 @@ main {
 
 }
 
+h3 {
+  font-size: 32px;
+}
+
 #article-info {
   position: relative;
-  
+
 }
