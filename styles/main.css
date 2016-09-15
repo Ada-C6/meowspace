@@ -1,5 +1,33 @@
 /*All pages*/
 
+/*In my attempt to do a true MySpace mock-up, I looked for annoying things I could do
+with CSS. The below seemed to go a bit too far, but I left it because it amuses me.*/
+
+/*body * {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body *:hover {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}*/
+
+* {
+  cursor:wait;
+}
+
+@keyframes myanim
+{
+  10%{transform:scale(1)rotate(0deg);}
+  20%{transform:scale(1)rotate(-3deg);}
+  80%{transform:scale(1)rotate(3deg);}
+  100%{transform:scale(1)rotate(0deg);}
+}
+
 main {
   padding-left: 15px;
   padding-right: 15px;
@@ -86,6 +114,10 @@ footer {
   text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
+#main-content h1:hover {
+  animation:myanim 100ms infinite linear;
+}
+
 #top-cats {
   float:right;
   width: 30%;
@@ -111,6 +143,10 @@ footer {
   text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
+#top-cats h2:hover {
+  animation:myanim 100ms infinite linear;
+}
+
 #top-cats h3 {
   text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
@@ -130,6 +166,10 @@ footer {
 #title h2 {
   font-size: 50px;
   text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
+}
+
+#title h2:hover {
+  animation:myanim 100ms infinite linear;
 }
 
 #article {
@@ -167,6 +207,11 @@ footer {
   font-size: 100px;
   float: right;
   margin-right: 400px;
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
+}
+
+.profile-name h1:hover {
+  animation:myanim 100ms infinite linear;
 }
 
 .profile-name img {
@@ -177,10 +222,6 @@ footer {
 .profile-name p {
   text-align: center;
   clear: both;
-}
-
-.profile-name h1 {
-  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
 .profile-posts article {
