@@ -120,16 +120,16 @@ aside{
   padding-bottom: 1rem;
   /*position: relative;
   display: inline-block;*/
-  width: 4rem;
-  height: 15rem;
+  width: 3rem;
+  height: 12rem;
   background-color: pink;
   position: relative;
   top: -1000px;
-  left: 60px;
+  left: 75px;
 }
 
 aside img{
-  width: 70%;
+  width: 90%;
 }
 
 /*footer*/
