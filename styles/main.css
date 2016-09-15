@@ -1,7 +1,7 @@
 /*Dealing with the header*/
 
 header{
-  background-color: #F25F5C;
+  background-color: #EFB0A1;
   /*position: absolute;
   top: 0px;*/
   height: 80px;
@@ -17,8 +17,15 @@ header nav ul {
 
 header nav ul li{
   display: inline-block;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #E0CA3C;
+  border-radius: 5px;
+}
+
+header nav ul li a{
+   color:#32021F;
 }
 
 header h1 {
@@ -27,16 +34,34 @@ header h1 {
 }
 
 header a, footer a {
-  color: #2F4858;
+  color: #424B54;
   text-decoration: none;
-}
-
-header a:hover, footer a:hover {
-  background-color: #CFD11A;
 }
 
 main {
   clear: both;
+}
+
+
+
+article img:nth-child(2) {
+  position: relative;
+  max-width: 25%;
+  padding: 10px;
+}
+
+article img:nth-child(3) {
+  position: relative;;
+  max-height: 75px;
+  max-width: 25%;
+  clear: both;
+}
+
+article img:nth-child(4) {
+  position: relative;
+  right: 0px
+  max-width: 25%;
+  clear: left;
 }
 
 main div {
@@ -101,6 +126,7 @@ footer {
 
 #left {
   float: left;
+  position: absolute;
   max-width: 65%;
 }
 
