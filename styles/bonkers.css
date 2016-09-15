@@ -1,0 +1,95 @@
+/*header*/
+header{
+  background: pink;
+  /*padding-top: 1rem;
+  padding-bottom:1rem;*/
+}
+
+header h1{
+  position: relative;
+  left:2rem;
+  top:2rem;
+}
+
+header h1 a{
+  text-transform: uppercase;
+  color:white;
+}
+
+/*navigation bar*/
+li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+a{
+  text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+section{
+  /*background-image: url("http://placekitten.com/1000/300");*/
+  padding-top:1rem;
+  padding-bottom:1rem;
+  text-align: center;
+  border:0.2rem solid;
+  border-color: pink;
+}
+
+article{
+  padding-top:1rem;
+  padding-bottom:1rem;
+  text-align: center;
+  border:0.2rem solid;
+  border-color: pink;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 15rem;
+  display: inline-block;
+
+}
+
+article h4{
+  background-color: lightgrey;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+
+
+/*footer*/
+footer{
+  background-color: pink;
+  color: white;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right:  1rem;
+}
+
+footer div:nth-child(1){
+  /*float:left;*/
+  width: 30%;
+}
+
+footer div::nth-child(2){
+  width: 70%;
+}
