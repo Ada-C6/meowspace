@@ -23,7 +23,6 @@ header h1 {
   float: left;
   margin-left: 20px;
   padding-left: 10px;
-  font-size: 50px;
 }
 
 nav ul {
@@ -54,7 +53,7 @@ nav {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 48px;
 }
 
 .main-articles {
@@ -71,6 +70,33 @@ h1 {
   border-style: solid;
   border-color: black;
   border-width: thin;
+  padding: 5px;
+  border-radius: 15px;
+  position: relative;
+}
+
+#top-cats section {
+  border-style: solid;
+  border-color: red;
+  border-width: thin;
+  border-radius: 15px;
+  clear: both;
+  margin: 10px;
+}
+#top-cats h3 {
+  display: inline-block;
+}
+#top-cats img {
+  border-radius: 50px;
+  float: left;
+  clear: both;
+  display: inline-block;
+  margin: 10px;
+}
+
+#top-cats p {
+  /*display: inline;*/
+  margin: 5px;
 }
 
 footer {
