@@ -54,9 +54,13 @@ a{
    background-color: #dddddd;
 }*/
 
-/*main*/
+/*body*/
 body{
     background-color: #f2f2f2;
+}
+
+main h1,h2{
+  margin: 2rem;
 }
 
 article img{
@@ -75,6 +79,8 @@ article{
   padding-left:2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
 
 }
 
@@ -93,11 +99,12 @@ section.post-content{
 /*aside*/
 aside{
   display: inline-block;
-  width: 25%;
   vertical-align:top;
+  width: 20%;
   background-color: pink;
   border-radius: 1rem;
   padding-right: 2rem;
+  margin-left: 1rem
 }
 
 aside h2,aside section{
@@ -115,14 +122,16 @@ footer{
   color: white;
   border-radius: 1rem;
   padding-left: 1rem;
-  padding-right:1rem;
+  padding-right: 1rem;
+  margin: 1rem;
 }
 
-div:nth-child(1){
-  float:left;
+footer h4{
+  display: inline-block;
   width: 30%;
 }
 
-div::nth-child(2){
-  width: 70%;
+footer p{
+  display: inline-block;
+  width: 50%;
 }

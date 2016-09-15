@@ -83,6 +83,7 @@ main div{
   width: 70%;
   position:relative;
   left:10rem;
+  margin-top: 1rem;
 }
 
 main p{
@@ -92,13 +93,14 @@ main p{
 }
 
 .main_large_img{
-  width:45rem;
+  position: relative;
+  width:100%;
   border-radius: 1rem;
 }
 
 .main_small_img{
   display: inline-block;
-  width: 14.5rem;;
+  width: 32%;
   height:15rem;
   border-radius: 1rem;
 }
@@ -109,7 +111,7 @@ main p:nth-of-type(1):first-letter {
 
 /*aside*/
 aside{
-  /*float:left;*/
+  float:left;
   border:0.2rem solid;
   border-color: pink;
   border-radius: 1rem;
@@ -118,13 +120,16 @@ aside{
   padding-bottom: 1rem;
   /*position: relative;
   display: inline-block;*/
-  width: 5rem;
+  width: 4rem;
   height: 15rem;
-  background-color: pink
+  background-color: pink;
+  position: relative;
+  top: -1000px;
+  left: 60px;
 }
 
 aside img{
-  width: 4rem;
+  width: 70%;
 }
 
 /*footer*/
@@ -134,13 +139,24 @@ footer{
   border-radius: 1rem;
   padding-left: 1rem;
   padding-right:  1rem;
+  margin: 1rem;
 }
 
-footer div:nth-child(1){
-  /*float:left;*/
+/*footer div:nth-child(1){
+  float:left;
   width: 30%;
 }
 
 footer div::nth-child(2){
   width: 70%;
+}*/
+
+footer h4{
+  display: inline-block;
+  width: 30%;
+}
+
+footer p{
+  display: inline-block;
+  width: 50%;
 }
