@@ -1,5 +1,5 @@
 header {
-  background-color: teal;
+  background-color: #5DD39E;
   position: fixed;
   top: 0px;
   width:100%;
@@ -16,8 +16,9 @@ header h1 a[href="index.html"] {
   float: left;
 }
 
+
 footer {
-  background-color: teal;
+  background-color: #5DD39E;
   clear: both;
   display: inline-block;
 }
@@ -49,7 +50,7 @@ main {
   display: inline;
 }
 
-article:nth-of-type(even) { background-color: grey}
+article:nth-of-type(odd) { background-color: #5DD39E}
 
 article {
   border: 1px;
@@ -106,14 +107,15 @@ article p {
   border-style: solid;
 }
 
-section p {
+article section p {
   border-style: none
 }
+
 div {
   border: 1px;
   border-style: solid;
 }
 
 .post-content {
-  background-color: purple
+  background-color: lightgrey;
 }
