@@ -46,6 +46,7 @@ nav li {
 
 main {
   padding-top: 180px;
+  margin: 10px;
 }
 
 nav {
@@ -54,14 +55,27 @@ nav {
 
 h1 {
   font-size: 48px;
+  /*margin: 10px; */
 }
+
+h2 {
+  font-size: 32px;
+}
+
 
 .main-articles {
   float: left;
   max-width: 70%;
+}
+
+.main-articles article {
   border-style: solid;
-  border-color: black;
+  border-color: red;
   border-width: thin;
+  border-radius: 15px;
+  clear: both;
+  margin: 10px;
+  padding: 10px;
 }
 
 #top-cats {
@@ -109,6 +123,7 @@ footer h4 {
   margin: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 24px;
 }
 
 footer ul {
