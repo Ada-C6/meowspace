@@ -19,6 +19,9 @@ header {
 
 header, nav {
   text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  clear: right;
 }
 
 nav a {
@@ -28,21 +31,25 @@ nav a {
 
 }
 
+
 h1 {
   font: 0.75rem
 }
 
-ul {`
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /*overflow: hidden;*/
   width: 15%;
 }
 
-li {
+li a {
   display: block;
   width: 20px;
+  /*text-align: center;*/
 }
+
 
 /*###############################
 #################################
@@ -53,9 +60,14 @@ li {
 main {
   background-color: lightyellow;
   max-width: 75%;
-  clear:right;
+
 }
 
+div {
+  float: left;
+  width: 85%;
+  clear: left;
+}
 /*###############################
 #################################
 ## Article   with Title
@@ -68,13 +80,6 @@ main {
 article {
 
   background-color: darkyellow;
-  clear:right;
-}
-
-
-aside {
-  float:left;
-  clear: left;
 }
 
 /*###############################
@@ -103,8 +108,10 @@ aside {
 ################################*/
 
 #top-cats {
-  background-color: #00bcd4
-
+  background-color: blue;
+  float: right;
+  width: 15%;
+  clear: right;
 }
 
 .round {
@@ -116,8 +123,6 @@ aside {
 ## footer
 ## copyright
 ## nav with about and contact
-##
-##
 #################################
 ################################*/
 
@@ -136,7 +141,6 @@ footer > p {
   font-size: 0.5rem;
   padding: 10px;
   margin:5px;
-  clear:both;
 }
 
 
