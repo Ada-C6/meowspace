@@ -6,6 +6,7 @@ html {
 a {
   text-decoration: none;
 }
+
 /*###############################
 #################################
 ## Header with Login & Signup buttons
@@ -13,42 +14,29 @@ a {
 ## distinguish each
 #################################
 ################################*/
+
 header {
   background-color: lightblue;
+  padding: 50px 75px 10px 75px;
+  height: 125px;
 }
 
-header, nav {
+nav {
   text-decoration: none;
-  padding: 5px;
-  margin: 5px;
-  clear: right;
 }
 
-nav a {
-  padding: 10px;
-  margin: 10px;
-  display: block;
-
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 100px;
+  float: right;
 }
-
-
 h1 {
+  padding: 5px;
   font: 0.75rem
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  /*overflow: hidden;*/
-  width: 15%;
-}
 
-li a {
-  display: block;
-  width: 20px;
-  /*text-align: center;*/
-}
 
 
 /*###############################
@@ -60,7 +48,6 @@ li a {
 main {
   background-color: lightyellow;
   max-width: 75%;
-
 }
 
 div {
@@ -68,19 +55,12 @@ div {
   width: 85%;
   clear: left;
 }
-/*###############################
-#################################
-## Article   with Title
-##            by cat name
-## some sort of stylized bar?
-##{} clear? 
-##
-#################################
-################################*/
-article {
 
-  background-color: darkyellow;
+section {
+  margin-right: 30px;
 }
+
+
 
 /*###############################
 #################################
@@ -99,25 +79,29 @@ article {
 /*###############################
 #################################
 ## aside id="top-cats"
-## img border radius: 100;
+## img border radius: 50;
 ## text appears truncated
 ## to the right of artice/ post content
-##
-##
 #################################
 ################################*/
-
+aside {
+  margin-top: 250px;
+  background-color: lightblue;
+}
 #top-cats {
-  background-color: blue;
   float: right;
   width: 15%;
-  clear: right;
 }
 
 .round {
+  margin: 20px;
   border-radius: 50%;
 }
 
+aside p {
+  margin: 10px;
+  align-content: center;
+}
 /*###############################
 #################################
 ## footer
@@ -142,6 +126,8 @@ footer > p {
   padding: 10px;
   margin:5px;
 }
+
+#disclaimer {}
 
 
 
