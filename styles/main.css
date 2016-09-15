@@ -12,13 +12,14 @@ header {
   top: 0px;
   width: 100%;
   background-color: #808;
-  border: #00e 1px dotted;
+  border: #00e 2px dotted;
 }
 
-header h1 {
-  margin-left: 50px;
+header h1, a[href="index.html"], a[href="../index.html"] {
+  margin-left: 25px;
   float: left;
   text-transform: uppercase;
+  color: #2ff;
 }
 
 header li {
@@ -26,7 +27,7 @@ header li {
   margin-right: 50px;
   padding: 10px 15px;
   float: right;
-  background-color: yellow;
+  background-color: #2ff;
 }
 
 footer li {
@@ -36,7 +37,7 @@ footer li {
   margin-right: 50px;
   padding: 10px 15px;
   float: right;
-  background-color: yellow;
+  background-color: #2ff;
 }
 
 footer h4 {
@@ -67,13 +68,22 @@ footer {
   padding: 0px 10px;
 }
 
+#main-content img {
+  display: none;
+}
+
 #main-content {
   float: left;
   width: 65%;
 }
 
+#main-content article h2 {
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
+}
+
 #main-content h1 {
   font-size: 40px;
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
 #top-cats {
@@ -98,6 +108,11 @@ footer {
 
 #top-cats h2 {
   padding-left: 20px;
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
+}
+
+#top-cats h3 {
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
 #top-cats section {
@@ -110,6 +125,11 @@ footer {
   border: #00e 3px solid;
   margin-bottom: 20px;
   text-align: center;
+}
+
+#title h2 {
+  font-size: 50px;
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
 #article {
@@ -157,6 +177,10 @@ footer {
 .profile-name p {
   text-align: center;
   clear: both;
+}
+
+.profile-name h1 {
+  text-shadow:  red 1px 1px, red 2px 2px, red 3px 3px, orange 4px 4px, orange 5px 5px, orange 6px 6px, yellow 7px 7px, yellow 8px 8px, yellow 9px 9px, green 10px 10px, green 11px 11px, green 12px 12px, blue 13px 13px, blue 14px 14px, blue 15px 15px, purple 16px 16px, purple 17px 17px;
 }
 
 .profile-posts article {
