@@ -1,9 +1,10 @@
 /*Dealing with the header*/
 
-header {
+header{
   background-color: #F25F5C;
-  position: fixed;
-  top: 0px;
+  /*position: absolute;
+  top: 0px;*/
+  height: 80px;
   width: 100%;
 }
 
@@ -25,22 +26,44 @@ header h1 {
   max-width: 60%;
 }
 
-header a {
+header a, footer a {
   color: #2F4858;
+  text-decoration: none;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
   background-color: #CFD11A;
 }
 
 main {
-  margin: 85px 0 0 0;
+  clear: both;
+}
+
+main div {
+  float: left;
+  max-width: 75%;
+  border: 2.5px 5px 5px 1.5px ;
+  margin-bottom: 5px
 }
 
 main article {
-  float: left;
-  max-width: 75%;
-  border-style: solid;
+  border: 2.5px solid black;
+  padding: 0 15px 5px 15px;
+  background-color: #D5B0AC;
+}
+
+h2~h3~p {
+  border: 2px solid #2F4858;
+  padding: 0 3px 0 3px;
+}
+
+.post-content {
+  border: 2px solid #2F4858;
+  padding: 0 3px 0 3px;
+}
+
+img {
+  padding: 5px
 }
 
 #top-cats {
@@ -50,10 +73,64 @@ main article {
 }
 
 #top-cats section {
-  border-top: 1px solid red; 
+  border: 1px solid red;
+}
 
+#top-cats h3, top-cats p {
+  float: right;
+  max-width: 45%;
+  padding: 7px;
+}
+
+
+#top-cats img {
+  border-radius: 50%;
+  float: left;
+  max-width: 45%;
+  padding: 7px;
 }
 
 footer {
   clear: both;
+  background-color: #F25F5C;
+  /*position: absolute;
+  top: 0px;*/
+  height: 200px;
+  width: 100%;
+}
+
+#left {
+  float: left;
+  max-width: 65%;
+}
+
+#go-left {
+  padding-top: 15px;
+  position: relative;
+}
+
+
+#disclaimer {
+  position: relative;
+}
+
+footer nav ul li {
+  float: right;
+  max-width: 30%;
+  display: inline-block;
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+header nav ul {
+  list-style-type: none;
+  float: right;
+  max-width: 35%;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
 }
