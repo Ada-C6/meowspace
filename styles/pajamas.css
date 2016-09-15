@@ -1,0 +1,146 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/*header*/
+header{
+  background: pink;
+  /*padding-top: 1rem;
+  padding-bottom:1rem;*/
+}
+
+header h1{
+  position: relative;
+  left:2rem;
+  top:2rem;
+}
+
+header h1 a{
+  text-transform: uppercase;
+  color:white;
+}
+
+/*navigation bar*/
+li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+a{
+  text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/*title*/
+section{
+  /*background-image: url("http://placekitten.com/1000/300");*/
+  padding-top:3rem;
+  padding-bottom:3rem;
+  text-align: center;
+  border:0.2rem solid;
+  border-color: pink;
+}
+
+/*section div{
+  border:0.2rem solid;
+  border-color: pink;
+}*/
+
+/*body*/
+main div{
+  border:0.2rem solid;
+  border-color: pink;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  /*display: inline-block;
+  width:70%
+  /*clear:both;*/
+  width: 70%;
+  position:relative;
+  left:10rem;
+}
+
+main p{
+  background-color: lightgrey;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.main_large_img{
+  width:45rem;
+  border-radius: 1rem;
+}
+
+.main_small_img{
+  display: inline-block;
+  width: 14.5rem;;
+  height:15rem;
+  border-radius: 1rem;
+}
+
+main p:nth-of-type(1):first-letter {
+  font-size: 2em;
+}
+
+/*aside*/
+aside{
+  /*float:left;*/
+  border:0.2rem solid;
+  border-color: pink;
+  border-radius: 1rem;
+  padding-left:1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  /*position: relative;
+  display: inline-block;*/
+  width: 5rem;
+  height: 15rem;
+  background-color: pink
+}
+
+aside img{
+  width: 4rem;
+}
+
+/*footer*/
+footer{
+  background-color: pink;
+  color: white;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right:  1rem;
+}
+
+footer div:nth-child(1){
+  /*float:left;*/
+  width: 30%;
+}
+
+footer div::nth-child(2){
+  width: 70%;
+}

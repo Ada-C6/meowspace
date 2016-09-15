@@ -112,6 +112,17 @@ aside img{
 /*footer*/
 footer{
   background-color: pink;
-  text-align: center;
   color: white;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right:1rem;
+}
+
+div:nth-child(1){
+  float:left;
+  width: 30%;
+}
+
+div::nth-child(2){
+  width: 70%;
 }
