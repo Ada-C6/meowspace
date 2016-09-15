@@ -50,16 +50,40 @@ main article p {
 }
  aside section #top-cats {
   float: right;
-  width: 15%;
-  padding-left: 2px;
+  max-width: 15%;
+  /*padding-left: 2px;*/
   /*margin: 10px black solid;*/
 }
+
+ /*aside section*/
+#top-cats img {
+   border-radius: 50%;
+   float: left;
+   display: inline-block;
+   margin: 2px;
+}
+
+#top-cats section {
+  display: inline-block;
+  border: 2px black solid;
+  margin-bottom: 3px;
+  margin-right: 15px;
+}
+#top-cats p {
+  clear: right;
+}
+
+#top-cats h3 {
+  text-align: center;
+}
+
 
 aside {
   display: inline-block;
   background-color: rgb(19, 175, 144);
   padding-left: 20px;
   width: 20%;
+  border: black 2px solid;
 }
 
 #disclaimer {
