@@ -83,7 +83,7 @@ main div{
   width: 70%;
   position:relative;
   left:10rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 main p{
@@ -96,6 +96,7 @@ main p{
   position: relative;
   width:100%;
   border-radius: 1rem;
+  margin-top: 1rem;
 }
 
 .main_small_img{
@@ -139,7 +140,7 @@ footer{
   border-radius: 1rem;
   padding-left: 1rem;
   padding-right:  1rem;
-  margin: 1rem;
+  margin-top: 3rem;
 }
 
 /*footer div:nth-child(1){
