@@ -3,6 +3,12 @@ section {
   margin: auto;
 }
 
+
+
+/********************************/
+/*       PROFILE-HEADER         */
+/********************************/
+
 section.profile-header img:first-child {
   margin: 0;
   margin-top: -2em;
@@ -39,6 +45,11 @@ section.profile-header p {
 }
 
 
+
+/********************************/
+/*   SPECIAL PROFILE IMAGE      */
+/********************************/
+
 section img.profile {
   border-radius: 100%;
   margin-left: 4em;
@@ -47,6 +58,12 @@ section img.profile {
   border-style: solid;
   border-width: .75em;
 }
+
+
+
+/********************************/
+/*           ARTICLE            */
+/********************************/
 
 article {
   display: inline-block;
@@ -59,12 +76,8 @@ article {
 
 article:hover {
   background-color: #D6FCB8;
-;
 }
 
 article:nth-child(3n+4) {
   margin-right: 0;
-  /*border-style: solid;
-  border-color: black;
-  border-width: 1px;*/
 }

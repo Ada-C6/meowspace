@@ -3,6 +3,12 @@ section {
   margin: auto;
 }
 
+
+
+/********************************/
+/*      POST-HEADER CLASS       */
+/********************************/
+
 section.post-header img {
   margin: 0;
   margin-top: -2em;
@@ -36,9 +42,10 @@ section.post-header p {
   margin-bottom: 10rem;
 }
 
-main {
-  width: 70%;
-}
+
+/********************************/
+/*       ARTICLE CONTENT        */
+/********************************/
 
 div.article-content {
   width: 81%;
@@ -51,6 +58,12 @@ div.article-content {
 div.article-content img:first-child {
   margin-top: 0;
 }
+
+
+
+/********************************/
+/*      SPECIAL LOGO IMAGE      */
+/********************************/
 
 img.logo {
   width: 11%;
