@@ -2,8 +2,14 @@
   border: black 2px solid;
 }
 
-.border-tb {
+.border-top {
   border-top: black 2px solid;
+}
+
+.border-table {
+  border-top: black 2px solid;
+  /*border-left: black 2px solid;*/
+  border-right: black 2px solid;
 }
 
 .post-content {
