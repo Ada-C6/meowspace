@@ -1,0 +1,83 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: pink;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+header h1 a[href="index.html"]{
+    float:left;
+}
+
+header nav ul li {
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid white;
+}
+
+.left-col {
+    float: left;
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.right-col {
+    float: right;
+    max-width: 25%;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+main div article {
+    border: solid white;
+    background-color: pink;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+div.right-col section {
+    border-top: solid white;
+    background-color: pink;
+    padding-left: 10px;
+}
+
+div.right-col h2 {;
+    padding-left: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: pink;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+footer h4 {
+    float: left;
+    padding-right: 20px;
+}
+
+footer #disclaimer {
+    width: 75%;
+    float: left;
+}
+
+footer nav ul li {
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid white;
+}
