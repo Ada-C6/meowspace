@@ -1,0 +1,174 @@
+body {
+  color: #6b82a8;
+}
+header * {
+  display: inline;
+}
+
+a[href="index.html"] {
+  text-decoration: none;
+  padding-left: 2%;
+}
+
+a[href*="comment"] {
+  font-style: italic;
+  color: #6b82a8;
+  text-decoration: none;
+}
+
+a {
+  color: #6c4f70;
+}
+
+header {
+  background-color: #d1d3cf;
+  padding-top: 60px;
+  border: 3px solid #d1d3cf;
+  border-radius: 25px;
+}
+aside {
+
+  max-width: 25%;
+  float: right;
+}
+
+aside#top-cats img {
+  border-radius: 25px;
+}
+
+.cats {
+  border: 3px solid #757087;
+  border-radius: 25px;
+}
+
+.top-nav-buttons {
+  border: 3px solid #6c4f70;
+  border-radius: 25px;
+  padding: 5px;
+  float: right;
+}
+
+.top-nav-buttons:nth-child(1) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-buttons {
+  border: 3px solid #6c4f70;
+  border-radius: 25px;
+  padding: 5px;
+  display: inline;
+
+}
+.nav-buttons:nth-child(1) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+article {
+  border: 3px solid #757087;
+  border-radius: 25px;
+}
+
+#articles {
+  float: left;
+  max-width: 70%;
+}
+
+
+footer {
+  float: left;
+  border: 3px solid #757087;
+  border-radius: 25px;
+}
+
+footer * {
+  clear: both;
+  display: inline;
+}
+
+h4#copyright {
+  font-size: 24pt;
+}
+p#disclaimer {
+  padding-left: 20%;
+  padding-right:20%;
+  max-width: 30%;
+  left: 25%;
+  display: inline-block;
+  font-size: 75%;
+  color: #39324b;
+}
+
+.bottom {
+  border: 3px solid #757087;
+  border-radius: 25px;
+  float: right;
+  padding: 5px;
+
+}
+.bottom:nth-child(1) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*articles*/
+
+.top-words {
+  color: #757087;
+  border: 3pt solid #6b82a8;
+  border-radius: 25px;
+  font-size: 30pt;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+#time {
+  font-size: 12pt;
+  text-align: center;
+  border: 3pt solid #757087;
+}
+
+.middle {
+  border: 3pt solid #6b82a8;
+  border-radius: 25px;
+  margin-left: 200px;
+  right: 40px;
+  max-width: 80%;
+}
+
+#big-cat {
+  position: inherit;
+  margin-left: 45px;
+  max-width: 90%;
+  border-radius: 25px;
+}
+
+.small-pics {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 30px;
+  border-radius: 25px;
+}
+
+p {
+  clear: both;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.pages {
+  position: absolute;
+  left: 90px;
+  top: 529px;
+  border: 3pt solid #757087;
+  border-radius: 25px;
+  max-width: 100px;
+  padding-left: 10px;
+}
+
+.social-button * {
+  width: 80px;
+  height: 80px;
+
+}
