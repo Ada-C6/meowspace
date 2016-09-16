@@ -1,0 +1,53 @@
+aside {
+	float: left;
+}
+
+h3 ~ p {
+	border: 0;
+}
+
+main {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+main > img {
+	position: relative;
+	left: 10%;
+}
+
+section {
+	border: 0;
+}
+
+#article-title {
+	text-align: center;
+}
+
+section p  {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.article-body {
+	float: right;
+	max-width: 60%;
+	text-align: justify;
+	display: inline-block;
+}
+
+.article-body img {
+	height: 200px;
+}
+
+aside {
+	float: left;
+	display: inline-block;
+	max-width: 51px;
+}
+
+aside img {
+	height: 50px;
+	width 50px;
+	display: block;
+}

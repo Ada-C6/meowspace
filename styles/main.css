@@ -1,0 +1,111 @@
+header {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	width: 99%;
+	padding: 0 10px;
+}
+
+header h1 {
+	display: inline;
+	float: left;
+	width: 45%;
+	margin-top: 0;
+}
+
+header nav {
+	display: inline;
+	width: 45%;
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+}
+
+main {
+	margin-left: 10px;
+	margin-bottom: 20em;
+	padding: 0;
+}
+
+main h1 {
+	clear: both;
+}
+
+nav li {
+	display: inline;
+	margin: 5px;
+}
+
+article {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: justify;
+}
+
+footer {
+	display: inline-block;
+	clear: both;
+	padding-top: 15px;
+}
+
+h3 ~ p {
+	border: 1px solid black;
+}
+
+.main-articles {
+	float: left;
+	max-width: 65%;
+}
+
+section {
+	border: 1px solid black;
+	margin: 0;
+	padding: 5px;
+}
+
+#top-cats {
+	float: right;
+}
+
+#top-cats h2 {
+	border: 1px solid black;
+	margin-bottom: 0;
+}
+
+#top-cats h3 {
+	text-align: center;
+	display: inline;
+}
+
+#top-cats img {
+	border-radius: 50%;
+	margin: 5px 5px 0 5px;
+	float: left;
+	clear: both;
+}
+
+#top-cats section {
+	padding: 0 0 20px 0;
+	border: 1px solid black;
+	border-top: 0;
+}
+
+#top-cats h3~p {
+	border: 0;
+}
+
+.copyright {
+	float: left;
+	max-width: 65%;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+.copyright h4 {
+	float: left;
+	margin-right: 10px;
+}
+
+footer nav {
+	float: right;
+	text-align: center;
+}
