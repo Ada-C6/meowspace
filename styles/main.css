@@ -1,0 +1,99 @@
+.border {
+  border: black 2px solid;
+}
+
+.border-tb {
+  border-top: black 2px solid;
+}
+
+.post-content {
+  border: black 2px solid;
+  margin: 20px;
+}
+
+.post-info {
+  margin: 20px;
+  border: black 2px solid;
+  clear: both;
+}
+
+.title-author {
+display: block;
+margin: 20px;
+}
+
+header a[href="index.html"]{
+  position: relative;
+  top: 25px;
+}
+
+header ul {
+  display: inline;
+  position: relative;
+  bottom: 50px;
+}
+
+div {
+  float: left;
+  max-width: 60%;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+p {
+  background-color: white;
+}
+
+#top-cats {
+  background-color: green;
+  float: right;
+  max-width: 25%;
+  margin-right: 25px;
+}
+
+#top-cats img {
+  border-radius: 50px;
+}
+
+#top-cats p {
+  display: inline-block;
+  width: 60%;
+}
+
+.top-name {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+}
+
+footer ul {
+  display: inline;
+  position: relative;
+  bottom: 50px;
+}
+
+footer a[href*="#"], header a[href*="#"] {
+  background-color: pink;
+  float: right;
+  margin: 10px;
+  border: black 2px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  float: left;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+#disclaimer {
+  max-width: 70%;
+  margin-top: 50px;
+}
