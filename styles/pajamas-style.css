@@ -1,0 +1,72 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: pink;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+header h1 a[href="index.html"]{
+    float:left;
+}
+
+header nav ul li {
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid white;
+}
+
+main section {
+    text-align: center;
+}
+
+.left-col {
+    float: left;
+    max-width: 10%;
+    padding-left: 10px;
+}
+
+/*div.left-col aside div a img {
+    height: 80px;
+    width: 80px;
+}*/
+
+.right-col {
+    float: right;
+    max-width: 85%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    clear: both;
+    background-color: pink;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+footer h4 {
+    float: left;
+    padding-right: 30px;
+}
+
+footer #disclaimer {
+    width: 70%;
+    float: left;
+}
+
+footer nav ul li {
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid white;
+}
