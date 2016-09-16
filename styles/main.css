@@ -81,3 +81,24 @@ footer nav ul li {
     padding-right: 5px;
     border: solid white;
 }
+
+main section {
+    text-align: center;
+}
+
+.left-col-a {
+    float: left;
+    max-width: 10%;
+    padding-left: 10px;
+}
+
+
+.right-col-a {
+    float: right;
+    max-width: 85%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
