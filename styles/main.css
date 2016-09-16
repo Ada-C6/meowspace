@@ -1,0 +1,169 @@
+a {
+	text-decoration: none;
+	color: #B6BE9C;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #E5C1BD;
+}
+
+a:visited {
+	text-decoration: line-through;
+}
+
+article {
+	border: 1px solid #D3D0CB;
+	border-bottom: 0;
+	padding: 20px;
+	text-align: justify;
+}
+
+article :first-child {
+	margin-top: 5px;
+}
+
+body {
+	font-family: 'Josefin Slab', Georgia, serif;
+	background-color: #5E747F;
+	color: #D2D0BA;
+}
+
+footer {
+	display: inline-block;
+	clear: both;
+	margin-top: 20px;
+	padding-top: 5px;
+	border-top: 1px solid #D3D0CB;
+}
+
+footer nav {
+	float: right;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 2.5em;
+}
+
+h3 ~ p {
+	border: 1px solid #D3D0CB;
+	padding: 5px;
+}
+
+header {
+	display: inline-block;
+	border-bottom: 1px solid #D3D0CB;
+	width: 99%;
+	padding: 0 10px;
+}
+
+header h1 {
+	display: inline;
+	float: left;
+	width: 45%;
+	margin-top: 0;
+}
+
+header a {
+	color: #2E5266;
+}
+
+header nav {
+	display: inline;
+	width: 45%;
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+}
+
+main {
+	margin-left: 10px;
+	padding: 0;
+}
+
+main h1 {
+	clear: both;
+	font-family: 'Josefin Slab', Georgia, serif;
+}
+
+nav li {
+	display: inline;
+	margin: 5px;
+}
+
+nav a {
+	color: #B6BE9C;
+}
+
+section {
+	border: 1px solid #D3D0CB;
+	margin: 0;
+	padding: 15px;
+}
+
+#copyright {
+	float: left;
+	max-width: 65%;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+#copyright h4 {
+	float: left;
+	margin-right: 10px;
+}
+
+#posts {
+	float: left;
+	margin-top: 0;
+	max-width: 65%;
+	display: inline-block;
+	border-bottom: 1px solid #D3D0CB;
+}
+
+img {
+	height: 200px;
+}
+
+
+#top-cats {
+	/* Note: I know this negative margin is a terrible idea
+	But I broke something and can't get it to line up with the
+	posts id otherwise. */
+	margin-top: -19px;
+	margin-right: 2%;
+	float: right;
+	display: inline-block;
+}
+
+#top-cats h2 {
+	border: 1px solid #D3D0CB;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#top-cats h3 {
+	display: inline;
+}
+
+#top-cats h3~p {
+	border: 0;
+}
+
+#top-cats img {
+	border-radius: 50%;
+	height: inherit;
+	margin: 5px 5px 0 5px;
+	float: left;
+	clear: both;
+}
+
+#top-cats section {
+	padding: 5px 0 20px 0;
+	border: 1px solid #D3D0CB;
+	border-top: 0;
+}

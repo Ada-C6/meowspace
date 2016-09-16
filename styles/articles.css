@@ -1,0 +1,53 @@
+aside {
+	float: left;
+	display: inline-block;
+	width: 50px;
+	border: 1px solid #D3D0CB;
+	border-right: 0;
+	padding: 0 10px;
+}
+
+aside img {
+	height: 40px;
+	width: 40px;
+	display: block;
+	margin: 5px 0;
+}
+
+
+h3 ~ p {
+	border: 0;
+}
+
+main {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+main > img {
+	position: relative;
+	left: 10%;
+}
+
+section {
+	border: 0;
+}
+
+section p {
+	border-top: 1px solid #D3D0CB;
+	border-bottom: 1px solid #D3D0CB;
+	line-height: 1.5em;
+}
+
+
+#article-body {
+	max-width: 66.65%;
+	text-align: justify;
+	display: inline-block;
+	border: 1px solid #D3D0CB;
+	padding: 10px;
+}
+
+#article-title {
+	text-align: center;
+}
