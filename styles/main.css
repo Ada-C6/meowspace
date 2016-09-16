@@ -1,7 +1,3 @@
-/** {
-  border: red 1px dotted;
-}*/
-
 /****** FULL SITE STUFF ******/
 /****** GLOBAL HEADER ******/
 header {
@@ -28,16 +24,15 @@ header * {
 }
 
 /****** GLOBAL ARTICLE ******/
-
 article {
   padding: 10px;
 }
 
-/*article > p {
+article > p {
   border: teal 3px solid;
   border-radius: 1px;
   margin: 3px;
-}*/
+}
 
 /****** GLOBAL FOOTER ******/
 
@@ -69,9 +64,10 @@ footer nav ul li {
   font-size: small;
 }
 
-/******* HOMEPAGE STUFF ******/
+/****** PAGE-SPECIFIC STUFF ******/
+/****** HOMEPAGE ******/
 
-.all-homepage-articles {
+#all-homepage-articles {
   float: left;
   max-width: 70%;
 }
@@ -92,10 +88,6 @@ footer nav ul li {
 }
 
 /******* ARTICLE PAGES ******/
-
-#main-article {
-  display: inline-block;
-}
 
 .subarticle-head {
   text-align: center;
