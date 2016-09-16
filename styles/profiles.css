@@ -1,0 +1,91 @@
+header {
+  background-color: #5DD39E;
+  position: fixed;
+  top: 0px;
+  width:100%;
+  padding-bottom: .5cm;
+}
+
+header ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: 1cm;
+}
+
+header h1 a[href="index.html"] {
+  float: left;
+}
+
+
+footer {
+  background-color: #5DD39E;
+  clear: both;
+  display: inline-block;
+
+}
+
+footer nav ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: .5cm
+}
+
+footer h4{
+  display: inline-block;
+  float: left;
+  margin-right: .5cm;
+  margin-left: 2mm
+}
+
+footer p{
+  max-width: 75%;
+  float: left;
+}
+
+section {
+  margin-top: 130px;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  padding-top: 1cm;
+}
+
+section p {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+section img {
+  border-radius: 15px;
+  background-color: #545454;
+  padding: 6mm;
+}
+
+main {
+  background-color: #513B56;
+  padding-top: .5cm;
+  padding-bottom: .5cm;
+  border-radius: 15px;
+  margin-bottom: 1cm;
+}
+
+main h2{
+  padding-left: 2mm;;
+  color: white
+}
+
+article {
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 2mm;
+    display: inline-block;;
+    max-width: 31%;
+    margin: 1mm;
+    background-color: white;
+}

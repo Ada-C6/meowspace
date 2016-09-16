@@ -1,0 +1,121 @@
+header {
+  background-color: #5DD39E;
+  position: fixed;
+  top: 0px;
+  width:100%;
+  padding-bottom: 1cm;
+}
+
+header ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: 1cm;
+}
+
+header h1 a[href="index.html"] {
+  float: left;
+}
+
+
+footer {
+  background-color: #5DD39E;
+  clear: both;
+  display: inline-block;
+}
+
+footer nav ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: .5cm
+}
+
+footer h4 {
+  display: inline-block;
+  float: left;
+  margin-right: .5cm;
+  margin-left: 2mm
+}
+
+footer p {
+  max-width: 75%;
+  float: left;
+}
+
+main h1 {
+  margin-top: 115px;
+}
+
+main {
+  display: inline;
+}
+
+article:nth-of-type(odd) {
+  background-color: #5DD39E
+}
+
+article {
+  border: 1px;
+  border-style: solid;
+  display: inline-block;
+  padding-left: .5cm;
+  padding-right: .5cm;
+}
+
+#kitty-korner-container {
+  float: left;
+  max-width: 64%;
+}
+
+#top-cats {
+  max-width: 30%;
+  float:right;
+  border: 1px;
+  border-style: solid;
+}
+
+#top-cats section {
+  border: 1px;
+  border-style:solid;
+  margin: 3mm;
+}
+
+#top-cats h2 {
+  border: 1px;
+  border-style:solid;
+  padding: 1mm;
+  margin-top: 0px
+}
+
+#top-cats section p {
+  margin-left: 1mm;
+  margin-right: 1mm;
+}
+
+#top-cats section img {
+  padding-left: 1mm;
+  border-radius: 50%;
+  margin-top: 2mm;
+}
+
+#top-cats section h3 {
+  float: right;
+  padding-right: 5cm;
+  clear: right;
+}
+
+article p {
+  border: 1px;
+  border-style: solid;
+  padding: 2mm;
+}
+img.indent-image {
+    margin-left: 10%;
+  }
+
+article section p {
+  border-style: none;
+}
+
+.post-content {
+  background-color: lightgrey;
+}

@@ -1,0 +1,105 @@
+header {
+  background-color: #5DD39E;
+  position: fixed;
+  top: 0px;
+  width:100%;
+  padding-bottom: .5cm;
+}
+
+header ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: 1cm;
+}
+
+header h1 a[href="index.html"] {
+  float: left;
+}
+
+
+footer {
+  background-color: #5DD39E;
+  clear: both;
+  display: inline-block;
+
+}
+
+footer nav ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: .5cm
+}
+
+footer h4{
+  display: inline-block;
+  float: left;
+  margin-right: .5cm;
+  margin-left: 2mm
+}
+
+footer p{
+  max-width: 75%;
+  float: left;
+}
+
+section {
+  margin-top: 130px;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  padding-top: 1cm;
+}
+
+section p {
+  border-style: solid;
+  border-width: thin;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-photo {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+main {
+  background-color: lightgrey;
+  max-width: 83%;
+  float: right;
+  margin-right: 2cm;
+  margin-left: 2cm;
+  border: black 1px solid;
+  position: relative;
+}
+
+img.indent-image {
+  margin-left: 6%;
+}
+
+main p{
+  padding: 3mm
+}
+
+#share-section {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0cm;
+  left: -10%;
+  max-width: 10%;
+  border: black 1px solid;
+  padding-left: 3mm;
+  padding-right: 2mm;
+}
+
+aside .thumbnail {
+  display: block;
+  height: 40px;
+  width: 60%;
+  padding-bottom: 2mm;
+}
