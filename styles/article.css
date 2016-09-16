@@ -5,6 +5,7 @@ main {
   border-style: solid;
   border-color: red;
   border-width: thin;
+  /*position: absolute;*/
 }
 
 .article-header-image img {
@@ -35,6 +36,31 @@ main {
 h3 {
   font-size: 32px;
 }
+
+#social-box {
+  /*position: relative;*/
+}
+
+#social {
+  border: black thin solid;
+  position: absolute;
+  top: 325px;
+  left: 155px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#social h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#social img {
+  height: 50px;
+  width: 50px;
+  display: block;
+  padding: 10px 20px;
+}
+
 
 #article-info {
   position: relative;
