@@ -1,0 +1,71 @@
+section {
+  width: 70%;
+  margin: auto;
+}
+
+
+
+/********************************/
+/*      POST-HEADER CLASS       */
+/********************************/
+
+section.post-header img {
+  margin: 0;
+  margin-top: -2em;
+  border-bottom-style: solid;
+  border-bottom-width: 2em;
+  border-bottom-color: #F2FDE9;
+}
+
+section.post-header h1 {
+  margin-top: -18rem;
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+section.post-header h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+section.post-header a:link, section.post-header a:visited {
+  color: white;
+}
+
+section.post-header p {
+  text-align: center;
+  font-size: 1.25rem;
+  color: white;
+  margin-bottom: 10rem;
+}
+
+
+/********************************/
+/*       ARTICLE CONTENT        */
+/********************************/
+
+div.article-content {
+  width: 81%;
+  float: right;
+  padding: 2%;
+  background-color: #F2FDE9;
+  margin-bottom: 2rem;
+}
+
+div.article-content img:first-child {
+  margin-top: 0;
+}
+
+
+
+/********************************/
+/*      SPECIAL LOGO IMAGE      */
+/********************************/
+
+img.logo {
+  width: 11%;
+  height: auto;
+}
