@@ -44,6 +44,7 @@ a {
   text-align: left;
 }
 
+/*home page articles*/
 .articles {
   width: 65%;
   float: left;
@@ -56,14 +57,14 @@ a {
 
 .articles article {
   border: 2px solid salmon;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
 }
 
 .articles article > p {
   background-color: salmon;
   padding: 10px;
-  margin: 0px -10px 10px -10px;
+  margin: 0 0 10px 0;
 }
 
 
@@ -74,6 +75,7 @@ footer {
   position: relative;
   top: 80px;
   padding: 10px;
+	width: 100%;
 }
 
 footer h4 {
@@ -85,6 +87,7 @@ footer h4 {
 footer p {
   float: left;
   width: 50%;
+	font-size: .75em;
 }
 
 #article-heading {
@@ -127,9 +130,26 @@ footer p {
   padding: 10px;
 }
 
-img[alt*="kitten"] {
-  width: 100%;
+section.article-content > img {
+	width: 100%;
+	height: auto;
 }
+
+.photos-row img {
+	height: 200px;
+	/*width: auto;*/
+	padding: 5px 20px;
+	/*margin: 0 auto;
+	display: inline-block;
+	align-content: center;*/
+}
+
+.photos-row {
+	/*align-content: center;*/
+	width: 90%;
+	margin: 20px auto;
+}
+
 /*share aside on article page*/
 aside img {
   width: 50px;
