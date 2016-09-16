@@ -12,7 +12,10 @@ main p {
 main img {
   display: inline-block;
   border-radius: 0%;
-  padding-left: 17px;
+  padding-left: 10%;
+  width: 20%;
+  /*height in percentages for each nth image after the first was seemingly ineffecitive.
+  I did not set a pixel-based height to keep the images more responsive (at the cost of the 2nd and 4th images not being squares as in the wireframe.)*/
 }
 
 main img:first-of-type {
