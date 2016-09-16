@@ -1,17 +1,22 @@
 main {
-  /*padding-top: 0px;*/
   width: 80%;
   float: right;
   border-style: solid;
-  border-color: red;
+  border-color: darkgrey;
   border-width: thin;
+  border-radius: 15px;
   /*position: absolute;*/
 }
+
 
 .article-header-image img {
   top: 10px;
   left: 10px;
   width: 100%;
+}
+
+.article-contents {
+  padding: 10px;
 }
 
 #article-desc {
@@ -54,6 +59,7 @@ h3 {
   top: 325px;
   left: 155px;
   border-radius: 15px 0px 0px 15px;
+  background-color: #C8C8A9;
 }
 
 #social h3 {
