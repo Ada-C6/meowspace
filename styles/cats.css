@@ -1,7 +1,3 @@
-/*a[href="index.html"] {
-
-
-}*/
 header {
   background: linear-gradient(to right,#bfbfbf, #808080);
   position: fixed;
@@ -27,59 +23,64 @@ a:link{
   text-decoration: none;
   font-style: "Trebuchet MS", Helvetica, sans-serif;
 }
+
 body {
     background: linear-gradient(to bottom,#bfbfbf, #262626);
 }
+h2.line-text{
+  position: absolute;
+  top: 230px;
+  left: 220px;
+}
+
+h3.other-text{
+  position: absolute;
+  top: 270px;
+  left: 220px;
+}
 
 main{
-  height: 20px;
+  height: 50%;
   padding-top: 100px;
   clear:both;
 }
 
-h3 p:first-child{
-  border-style: groove;
-  border-color: #262626;
-}
-div {
-  clear: left;
+
+section p{
+  position: relative;
+  top: 450px;
   float: left;
-  margin-right: 5%;
-  width: 60%;
-  clear: both;
-  padding: 20px;
-}
- img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-article {
-  border-color: black;
-  border-style: double;
+
 }
 
-aside#top-cats {
-
+main div {
+  position: relative;
+  top: 50px;
   float: right;
   display: inline;
-  width: 30%;
+  width: 60%;
   border-color: black;
   border-style: double;
-  text-align: center;
-}
-#top-cats img{
-  border-radius: 50%
-}
-aside section {
-  padding: 10px;
-}
+  clear: both;
 
+}
+aside {
+  float: left;
+  width: 10%;
+padding-top: 30px;
+}
+ aside img {
+ max-width: 100%;
+ max-height: 100%;
+ object-fit: contain;
+}
 footer {
+
   font-size: .5em;
   color:  #ffff1a;
-  clear: both;
-  padding: 8px;
   border:  #ffff80 dashed;
   border-radius: 25px;
+  position: relative;
+  height: 90px;
+  clear: both;
 }
