@@ -1,0 +1,231 @@
+html, body, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  background-color: antiquewhite;
+  z-index: 100;
+}
+
+header h1 {
+  float: left;
+  margin-left: 1em;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  margin: .5em 1em;
+  padding: .5em;
+  background-color: salmon;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: maroon;
+}
+
+#index {
+  margin: 120px 0 0 20px;
+}
+
+#index h2 {
+  text-align: left;
+}
+
+/*home page articles*/
+.articles {
+  width: 65%;
+  float: left;
+}
+
+.articles h3, h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.articles article {
+  border: 2px solid salmon;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.articles article > p {
+  background-color: salmon;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+
+footer {
+  clear: both;
+  background-color: antiquewhite;
+  height: 150px;
+  position: relative;
+  top: 80px;
+  padding: 10px;
+	width: 100%;
+}
+
+footer h4 {
+  float: left;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
+footer p {
+  float: left;
+  width: 50%;
+	font-size: .75em;
+}
+
+#article-heading {
+  margin-top: 80px;
+  background-color: aliceblue;
+  padding: 3% 0;
+  position: relative;
+}
+
+#article-heading h1, h2, h3 {
+  text-align: center;
+}
+
+#article-heading img {
+  position: absolute;
+  bottom: -60%;
+  border-radius: 50%;
+  width: 15%;
+  margin-left: 3%;
+}
+
+#article-heading p {
+  background-color: salmon;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+
+#post-details {
+  background-color: black;
+  color: white;
+}
+
+.article-content {
+  border: 3px solid black;
+  float: right;
+  width: 80%;
+  margin: 0 20px 0 0;
+  padding: 10px;
+}
+
+section.article-content > img {
+	width: 100%;
+	height: auto;
+}
+
+.photos-row img {
+	height: 200px;
+	/*width: auto;*/
+	padding: 5px 20px;
+	/*margin: 0 auto;
+	display: inline-block;
+	align-content: center;*/
+}
+
+.photos-row {
+	/*align-content: center;*/
+	width: 90%;
+	margin: 20px auto;
+}
+
+/*share aside on article page*/
+aside img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  /*margin: 10px;*/
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+aside {
+  width: 10%;
+  text-align: center;
+  border: 2px solid black;
+  /*margin: 0, 0, 0, 10px;*/
+  float: right;
+  margin-left: 10px;
+}
+
+#top-cats {
+  width: 30%;
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  border: 1px solid gold;
+  border-radius: 5px;
+}
+
+#top-cats img {
+  border-radius: 50%;
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+#top-cats h3 {
+  float: right;
+  margin-right: 35%;
+  margin-top: -3px;
+}
+
+#top-cats p {
+  clear: right;
+  padding: 10px;
+}
+
+#top-cats h2 {
+  border: 2px solid gold;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#top-cats section {
+  border: 2px solid gold;
+  padding: 10px;
+}
+
+#profile {
+  position: relative;
+  top: 80px;
+  margin: 0 20px;
+}
+
+#profile h2 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#profile article {
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  min-width: 200px;
+}
