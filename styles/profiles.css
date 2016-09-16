@@ -56,50 +56,36 @@ section h2 {
 section p {
   border-style: solid;
   border-width: thin;
-  background-color: white;
   border-radius: 15px;
   padding: 10px;
   text-align: center;
 }
 
-.top-photo {
-  position: relative;
-  display: block;
-  width: 100%;
+section img {
+  border-radius: 15px;
+  background-color: #545454;
+  padding: 6mm;
 }
 
 main {
-  background-color: lightgrey;
-  max-width: 83%;
-  float: right;
-  margin-right: 2cm;
-  margin-left: 2cm;
-  border: black 1px solid;
-  position: relative;
+  background-color: #513B56;
+  padding-top: .5cm;
+  padding-bottom: .5cm;
+  border-radius: 15px;
+  margin-bottom: 1cm;
 }
 
-img.indent-image {
-  margin-left: 6%;
+main h2{
+  padding-left: 2mm;;
+  color: white
 }
 
-main p{
-  padding: 3mm
-}
-
-#share-section {
-  box-sizing: border-box;
-  position: absolute;
-  top: 0cm;
-  left: -10%;
-  max-width: 10%;
-  border: black 1px solid;
-  padding-left: 3mm;
-  padding-right: 2mm;
-}
-
-aside .thumbnail {
-  display: block;
-  height: 40px;
-  width: 60%;
-  padding-bottom: 2mm;
+article {
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 2mm;
+    display: inline-block;;
+    max-width: 31%;
+    margin: 1mm;
+    background-color: white;
 }
