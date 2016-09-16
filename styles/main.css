@@ -1,4 +1,4 @@
-    body {
+body {
     font-family: avenir, helvetica, sans-serif;
     border: black 3px solid;
 }
@@ -6,11 +6,8 @@
 header {
     border: black 3px solid;
     position: fixed;
-    /*align-items: justify;*/
     align-self: center;
     width: 98%;
-    /*display: block;*/
-    /*margin-top: -100px;*/
     background-color: #8a9fd7;
     z-index: 1000;
 }
@@ -36,16 +33,11 @@ header li {
     text-align: center;
     background-color: #84cab5;
     font-weight: bold;
-    /*display: inline;*/
-    /*align-items: flex-end;*/
 }
 
 main {
     margin-top: 100px;
     margin-left: 2em;
-    /*position: relative;*/
-    /*display: block;*/
-    /*clear: both;*/
 }
 
 main h1, h2 {
@@ -60,18 +52,8 @@ main h1, h2 {
 article {
     border: black 2px solid;
     padding: .5em 2em 0 2em;
-    /*position: relative;*/
-    /*left: 0px;*/
-    /*width: 60%;*/
     margin-right: 20px;
 }
-/*article {
-    border: black 2px solid;
-    padding: .5em 2em 0 2em;
-    float: left;
-    width: 50%;
-    margin-right: 20px;
-}*/
 
 article img {
     display: none;
@@ -106,29 +88,19 @@ article p:first-of-type {
     margin: 20px;
     float: left;
     border-radius: 50px;
-    /*position: absolute;*/
 }
 
 #top-cats h3 {
-    /*clear: right;*/
     position: relative;
     left: 30px;
     top: 10px;
     text-align: center;
     align-items: center;
     display: inline;
-    /*display: flex;*/
-    /*align-items: flex-end;*/
-    /*position: relative;
-    align-items: right;*/
-    /*float: right;*/
-    /*text-align: center;*/
 }
 
 #top-cats p {
     clear: right;
-    /*position: relative;*/
-    /*right: 0px;*/
     float: right;
     max-width: 60%;
 }
@@ -138,37 +110,6 @@ article p:first-of-type {
     border: black 2px solid;
     height: 130px;
     margin: 0;
-}
-/*#top-cats {
-    position: absolute;
-    top: 118px;
-    right: 0;
-    max-width: 25%;
-    border: black 2px solid;
-
-}*/
-/*#top-cats {
-    float: right;
-    max-width: 20%;
-    border: black 2px solid;
-
-}*/
-
-/*aside {
-    border: black 2px solid;
-    position: relative;
-}
-
-aside section {
-    border: black 2px solid;
-}*/
-
-
-aside section p {
-    /*position: absolute;
-    display: inline-block;
-    right: 0px;*/
-    /*float: right;*/
 }
 
 footer {
@@ -190,6 +131,4 @@ footer li {
     text-align: center;
     background-color: #84cab5;
     font-weight: bold;
-    /*display: inline;*/
-    /*align-items: flex-end;*/
 }
