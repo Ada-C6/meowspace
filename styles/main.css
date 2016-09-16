@@ -1,0 +1,136 @@
+/** {
+  border: red 1px dotted;
+}*/
+
+/****** FULL SITE STUFF ******/
+/****** GLOBAL HEADER ******/
+header {
+  padding: 2em 2em;
+  clear: both;
+  border: teal 3px solid;
+  border-radius: 5px;
+}
+
+header h1 {
+  padding-right: 25em;
+}
+
+header * {
+  display: inline;
+}
+
+
+/****** GLOBAL BUTTONS ******/
+.button {
+  text-align: center;
+  border: red 1px dotted;
+  margin-right: 2em;
+}
+
+/****** GLOBAL ARTICLE ******/
+
+article {
+  padding: 10px;
+}
+
+/*article > p {
+  border: teal 3px solid;
+  border-radius: 1px;
+  margin: 3px;
+}*/
+
+/****** GLOBAL FOOTER ******/
+
+footer {
+  clear: both;
+  border: teal 3px solid;
+  border-radius: 5px;
+  /*overflow: hidden;*/
+}
+
+footer h4 {
+  float:left;
+  padding: 2px;
+}
+
+footer nav {
+  float:right;
+}
+
+footer nav ul li {
+  display: inline;
+}
+
+#disclaimer {
+  display: inline-block;
+  float: none;
+  padding: 0 10%;
+  max-width: 50%;
+  font-size: small;
+}
+
+/******* HOMEPAGE STUFF ******/
+
+.all-homepage-articles {
+  float: left;
+  max-width: 70%;
+}
+
+.homepage-article {
+  border: teal 3px solid;
+  border-radius: 5px;
+  clear: both;
+  margin: 10px;
+}
+
+#top-cats {
+  float: right;
+  max-width: 25%;
+  border: teal 3px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/******* ARTICLE PAGES ******/
+
+#main-article {
+  display: inline-block;
+}
+
+.subarticle-head {
+  text-align: center;
+  border: teal 3px solid;
+  border-radius: 5px;
+}
+
+.subarticle-body-top {
+  border: teal 3px solid;
+  border-radius: 5px;
+  width: 80%;
+  float: right;
+  right: 5em;
+  padding: 10px;
+  margin: 10px 4em 10px 10px;
+  /*position: relative;*/
+}
+
+.subarticle-body-top img:first-child {
+  width: 100%;
+}
+
+.sharebar {
+  border: teal 3px solid;
+  border-radius: 5px;
+  float: right;
+  text-align: center;
+  margin: 10px 0px 10px 10px;
+}
+
+.sharebar * {
+  display: block;
+}
+
+.sharebar img {
+  height: 50px;
+  margin: 5px;
+}
