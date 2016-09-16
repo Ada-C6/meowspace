@@ -29,15 +29,14 @@ footer nav ul li {
   padding-right: .5cm
 }
 
-footer h4{
-  /*max-width: 15%;*/
+footer h4 {
   display: inline-block;
   float: left;
   margin-right: .5cm;
   margin-left: 2mm
 }
 
-footer p{
+footer p {
   max-width: 75%;
   float: left;
 }
@@ -50,26 +49,28 @@ main {
   display: inline;
 }
 
-article:nth-of-type(odd) { background-color: #5DD39E}
+article:nth-of-type(odd) {
+  background-color: #5DD39E
+}
 
 article {
   border: 1px;
   border-style: solid;
-  float: left;
   display: inline-block;
-  max-width: 64%;
-  margin-right: 4mm;
   padding-left: .5cm;
   padding-right: .5cm;
 }
 
+#kitty-korner-container {
+  float: left;
+  max-width: 64%;
+}
 
 #top-cats {
-  max-width: 34%;
-  /*margin-left: 5cm;*/
+  max-width: 30%;
+  float:right;
   border: 1px;
   border-style: solid;
-  display: inline-block;
 }
 
 #top-cats section {
@@ -78,42 +79,41 @@ article {
   margin: 3mm;
 }
 
-#top-cats h2{
+#top-cats h2 {
   border: 1px;
   border-style:solid;
   padding: 1mm;
   margin-top: 0px
 }
 
-#top-cats section p{
+#top-cats section p {
   margin-left: 1mm;
   margin-right: 1mm;
 }
 
-#top-cats section img{
+#top-cats section img {
   padding-left: 1mm;
   border-radius: 50%;
-  margin-top: 2mm
+  margin-top: 2mm;
 }
 
-#top-cats section h3{ float: right;
+#top-cats section h3 {
+  float: right;
   padding-right: 5cm;
   clear: right;
-
 }
 
 article p {
   border: 1px;
   border-style: solid;
+  padding: 2mm;
 }
+img.indent-image {
+    margin-left: 10%;
+  }
 
 article section p {
-  border-style: none
-}
-
-div {
-  border: 1px;
-  border-style: solid;
+  border-style: none;
 }
 
 .post-content {
