@@ -1,0 +1,184 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+header {
+  background-color: #5D5D81;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header h1 {
+  margin-left: 40px;
+  font-family: 'Bad Script', cursive;
+}
+
+header li {
+  background-color: #3B3355;
+  font-family: 'Bad Script', cursive;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px 10px 20px;
+}
+
+header li:first-child {
+  left: 73%;
+}
+
+header li:last-child {
+  left: 75%;
+}
+
+header a:link {
+  color: #BFCDE0
+}
+
+header a:hover {
+  color: #BFCDE0
+}
+
+header a:visited {
+  color: #BFCDE0
+}
+
+main h1, h2 {
+  font-family: 'Bad Script', cursive;
+}
+
+article {
+  font-family: sans-serif;
+  border-top: black 5px solid;
+  border-bottom: black 2.5px solid;
+  border-left: black 5px solid;
+  border-right: black 5px solid;
+  position: relative;
+}
+
+article > p {
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+}
+
+article p:nth-child(2) {
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+}
+
+article p:last-child {
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+}
+
+article img {
+  padding-left: 8%;
+  width: 85%;
+}
+
+article h2 {
+  color: #3B3355;
+}
+
+article a:link {
+  color: #5D5D81;
+}
+
+article a:hover {
+  color: #5D5D81;
+}
+
+article a:visited {
+  color: #5D5D81;
+}
+
+aside {
+  border: black 5px solid;
+  width: 20%;
+  margin-left: 72%;
+  font-family: sans-serif;
+}
+
+aside p {
+  display: inline-block;
+  width: 30%;
+  padding-left: 25px;
+}
+
+aside img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+aside h2 {
+  position: relative;
+  text-align: center;
+  border-top: black 5px solid;
+  border-bottom: black 5px solid;
+}
+
+aside h3 {
+  margin-left: 33%;
+}
+
+footer {
+  background-color: #5D5D81;
+  font-family: sans-serif;
+  color: #BFCDE0;
+  clear: both;
+  display: inline-block;
+  position: relative;
+}
+
+footer h4 {
+  margin-top: 50px;
+  width: 10%;
+  float: left;
+}
+
+footer p {
+  width: 50%;
+  float: left;
+}
+
+footer a:link {
+  color: #BFCDE0;
+}
+
+footer a:hover {
+  color: #BFCDE0;
+}
+
+footer a:visited {
+  color: #BFCDE0;
+}
+
+footer li {
+  background-color: #3B3355;
+  font-family: 'Bad Script', cursive;
+  list-style: none;
+  position: relative;
+  display: inline;
+  padding: 10px 20px 10px 20px;
+}
+
+footer li:first-child {
+  top: 50px;
+  left: 10%;
+}
+
+footer li:last-child {
+  top: 50px;
+  left: 13%;
+}
+
+.main-float-wrapper {
+  float: left;
+  width: 70%;
+}
