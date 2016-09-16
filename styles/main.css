@@ -1,49 +1,80 @@
- header{
-border-style: solid;
-border-color: black;
-padding-left: 9px;
-}
-header ul{
-  list-style-type: none;
-  display: inline-block;;
+/*color*/
+body{
+  background-color: teal;
 }
 
- title{
-  float: right;
-  display: inline;
-  background-color: yellow;
+/*Header*/
+header{
+  border-style: solid;
+  border-color: black;
+  padding-left: 9px;
+  background-color: teal;
 }
+
+header h1{
+  display: inline-block;
+}
+
 header li{
-  float: right;
-  margin-left: 2px;
+  display: inline-block;
+  margin: 2px;
 }
+
+header nav{
+  float: right;
+  margin: 20px;
+}
+
+main h1,h2{
+  margin-left: 12px;
+}
+/*left articles*/
 div{
   border-style: solid;
   border-color: black;
-  width: 60%;
+  font-family: Helvetica;
+  width: 65%;
   float: left;
-  margin: 3px;
+  margin: 3px auto;
+  background-color: coral;
 }
-  article{
-margin-top: 3%;
-margin-left: 3%;
-margin-right: 3%;
+
+/*articles image*/
+div img{
+  width: 50%;
+  float: left;
+  border-radius: 20%;
 }
+
+/*separating articles and pictures from the outer border.*/
+article{
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 article section{
   display: inline-block;
   border-style: solid;
   border-color: black;
 }
 
- #top-cats{
-  /*display: inline-block;*/
+/*top cat*/
+#top-cats{
+  display: inline-block;
   border-style: solid;
   border-color: black;
-  width: 25%;
-
-  margin-top: 3%;
+  width: 30%;
   margin-right: 2%;
   float: right;
+  background-color: coral;
+  font-family: Helvetica;
+}
+
+#top-cats img{
+  float: left;
+  border-radius: 50%;
+  margin-top: 8px;
 }
 
 #top-cats section{
@@ -51,27 +82,78 @@ article section{
   border-color: black;
 }
 
- article p:nth-child(3){
+article p:nth-child(3){
   border-style: solid;
   border-color: black;
 }
 
-
+/*footer*/
 footer{
   border-color: black;
   border-style: solid;
-  /*padding: 10px 15px 10px 2px;*/
+  padding: 5px
   clear: both;
   display: inline-block;
 }
 footer ul{
   list-style-type: none;
+}
+
+footer li{
+  border-color: black;
+  border-style: solid;
   display: inline-block;
+  margin: 2px;
   float: left;
 }
-footer h4{
+
+/*keeps images within the block*/
+#top-cats h3{
   display: inline-block;
 }
-footer p{
+
+footer h3{
   display: inline-block;
+  float: right;
+}
+
+#disclaimer{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: .8em;
+  width: 70%;
+}
+
+/*copyright*/
+footer h4{
+  display: inline-block;
+  float: left;
+  width: 7%;
+  margin-left: 10px;
+}
+
+footer nav{
+  margin: 2px;
+  float: right;
+}
+
+/*additions from selector fun excercise*/
+a:hover{
+  color: red;
+}
+
+/* All Links Visted Color black*/
+a:visited {
+  color: black;
+
+}
+
+article img + p::first-letter{
+  font-size: 2em;
+}
+
+a[href*="comment"] {
+  font-style: italic;
+  text-decoration: none;
+  text-decoration: underline;
 }
