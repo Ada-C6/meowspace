@@ -1,0 +1,63 @@
+main article {
+  border: 2px solid black;
+
+}
+
+#leftstuff {
+  float:left;
+  max-width: 70%;
+}
+
+main aside {
+  float:right;
+  max-width: 25%;
+
+}
+
+article p {
+  border: 2px solid black;
+}
+
+.post-content img:first-child {
+  float:left;
+}
+
+.gallery {
+  float:left;
+  clear:both;
+}
+
+
+.post-content img {
+  height: 200px;
+}
+
+.post-content p {
+  border: none;
+}
+
+section {
+  overflow: hidden;
+}
+
+aside h2 {
+  border: 2px solid black;
+  text-align: center;
+}
+
+aside section {
+  border: 2px solid black;
+}
+
+aside section h3 {
+  text-align: center;
+  padding-left: 55px;
+}
+
+aside section img {
+  float: left;
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  position: relative;
+  bottom: 30px;
+}
