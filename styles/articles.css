@@ -1,0 +1,36 @@
+
+
+/*section .cats-pajamas {
+  display: inline-block;
+  clear: both;
+  float: right;
+}*/
+
+.article-byline{
+text-align: center;
+}
+
+.main-content{
+  display: inline-block;
+  float: right;
+  max-width: 80%;
+  border: solid 2px black;
+  margin: 4px;
+  background-color: red;
+  /*position: relative;*/
+
+}
+
+.social-sharing  {
+  display: inline-block;
+  float: left;
+  /*right: 11em;
+  bottom: 88em;*/
+  width: 10%;
+  height: 15%;
+}
+
+.social-sharing img {
+  width: 50%;
+  height: 50%;
+}
