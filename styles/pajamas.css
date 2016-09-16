@@ -81,9 +81,14 @@ main div{
   width:70%
   /*clear:both;*/
   width: 70%;
-  position:relative;
+  /*position:relative;
   left:10rem;
-  margin-top: 2rem;
+  margin-top: 2rem;*/
+  float:right;
+  margin-top:3rem;
+  margin-bottom: 3rem;
+  margin-right: 8rem;
+
 }
 
 main p{
@@ -124,9 +129,11 @@ aside{
   width: 3rem;
   height: 12rem;
   background-color: pink;
-  position: relative;
+  /*position: relative;
   top: -1000px;
-  left: 75px;
+  left: 75px;*/
+  float:right;
+  margin-top:3rem;
 }
 
 aside img{
@@ -141,6 +148,8 @@ footer{
   padding-left: 1rem;
   padding-right:  1rem;
   margin-top: 3rem;
+  clear:both;
+
 }
 
 /*footer div:nth-child(1){
