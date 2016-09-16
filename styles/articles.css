@@ -1,6 +1,19 @@
 aside {
 	float: left;
+	display: inline-block;
+	width: 50px;
+	border: 1px solid #D3D0CB;
+	border-right: 0;
+	padding: 0 10px;
 }
+
+aside img {
+	height: 40px;
+	width: 40px;
+	display: block;
+	margin: 5px 0;
+}
+
 
 h3 ~ p {
 	border: 0;
@@ -20,34 +33,21 @@ section {
 	border: 0;
 }
 
-#article-title {
-	text-align: center;
+section p {
+	border-top: 1px solid #D3D0CB;
+	border-bottom: 1px solid #D3D0CB;
+	line-height: 1.5em;
 }
 
-section p  {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
 
-.article-body {
-	float: right;
-	max-width: 60%;
+#article-body {
+	max-width: 66.65%;
 	text-align: justify;
 	display: inline-block;
+	border: 1px solid #D3D0CB;
+	padding: 10px;
 }
 
-.article-body img {
-	height: 200px;
-}
-
-aside {
-	float: left;
-	display: inline-block;
-	max-width: 51px;
-}
-
-aside img {
-	height: 50px;
-	width 50px;
-	display: block;
+#article-title {
+	text-align: center;
 }
