@@ -1,5 +1,5 @@
 main {
-  padding-top: 0px;
+  /*padding-top: 0px;*/
   width: 80%;
   float: right;
   border-style: solid;
@@ -16,10 +16,11 @@ main {
 
 #article-desc {
   /* Line it up correctly within the div */
-  position: relative;
+  /*position: relative;*/
+  position: absolute;
   top: 250px;
   left: 200px;
-  padding: 20px 10px 20px 50px;
+  padding: 20px 10px 270px 50px;
   width: 100%;
   box-sizing: border-box;
   /* Make it look like meme text */
@@ -30,15 +31,21 @@ main {
                2px -2px black,
                -2px 2px black,
                -2px -2px black;
+}
 
+#article-info {
+  position: absolute;
+  font-size: 12px;
+  font-family: Helvetica;
+  top: 400px;
+  left: 800px;
+  padding: 20px 10px 20px 50px;
+  width: 100%;
+  color: white;
 }
 
 h3 {
   font-size: 32px;
-}
-
-#social-box {
-  /*position: relative;*/
 }
 
 #social {
@@ -59,10 +66,4 @@ h3 {
   width: 50px;
   display: block;
   padding: 10px 20px;
-}
-
-
-#article-info {
-  position: relative;
-
 }
