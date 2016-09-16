@@ -1,7 +1,7 @@
 /*Dealing with the header*/
 
 header{
-  background-color: #EFB0A1;
+  background-color: #902D41;
   /*position: absolute;
   top: 0px;*/
   height: 80px;
@@ -20,12 +20,12 @@ header nav ul li{
   padding: 5px;
   margin-right: 5px;
   margin-left: 5px;
-  background-color: #E0CA3C;
+  background-color: #FF007F;
   border-radius: 5px;
 }
 
 header nav ul li a{
-   color:#32021F;
+   color:#004FFF;
 }
 
 header h1 {
@@ -34,7 +34,7 @@ header h1 {
 }
 
 header a, footer a {
-  color: #424B54;
+  color: #004FFF;
   text-decoration: none;
 }
 
@@ -74,16 +74,16 @@ main div {
 main article {
   border: 2.5px solid black;
   padding: 0 15px 5px 15px;
-  background-color: #D5B0AC;
+  background-color: #31AFD4;
 }
 
 h2~h3~p {
-  border: 2px solid #2F4858;
+  border: 2px solid #31AFD4;
   padding: 0 3px 0 3px;
 }
 
 .post-content {
-  border: 2px solid #2F4858;
+  border: 2px solid #31AFD4;
   padding: 0 3px 0 3px;
 }
 
@@ -95,10 +95,12 @@ img {
   float: right;
   max-width: 20%;
   border-style: solid;
+  background-color: #31AFD4;
+  color: #902D41;
 }
 
 #top-cats section {
-  border: 1px solid red;
+  border: 1px solid #FF007F;
 }
 
 #top-cats h3, top-cats p {
@@ -117,7 +119,7 @@ img {
 
 footer {
   clear: both;
-  background-color: #F25F5C;
+  background-color: #902D41;
   /*position: absolute;
   top: 0px;*/
   height: 200px;
