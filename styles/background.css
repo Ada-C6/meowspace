@@ -1,0 +1,65 @@
+body {
+  border: 2px solid black;
+}
+
+header {
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+li {
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+  height: 30px;
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 9px;
+}
+
+li a {
+  vertical-align: middle;
+}
+
+nav {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+footer {
+  clear:both;
+  border: 2px solid black;
+  overflow: hidden;
+  height:70px;
+}
+
+footer h4 {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#disclaimer {
+  font-size: .5em;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 200px;
+}
+
+footer nav {
+  position: relative;
+  bottom: 47px;
+}
