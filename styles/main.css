@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+  background-color: #FC9D9A;
+}
+
+
+a {
+  text-decoration: none;
+  color: #2c5154;
+}
+
+a:hover {
+  color: #A5D5D9;
+}
+
+header, footer {
+  background-color: #5688A9;
+  position: absolute;
+  width: 98%;
+  clear: both;
+}
+
+header h1 {
+  float: left;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+nav ul {
+  padding-right: 10px;
+}
+
+nav li {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  top: -20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: #5AADCD;
+  border-radius: 15px;
+}
+
+main {
+  padding-top: 180px;
+  margin: 10px;
+  background-color: #FC9D9A;
+}
+
+nav {
+  clear: both;
+}
+
+h1 {
+  font-size: 48px;
+  /*margin: 10px; */
+}
+
+h2 {
+  font-size: 32px;
+}
+
+
+.main-articles {
+  float: left;
+  max-width: 70%;
+}
+
+.main-articles article {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 15px;
+  clear: both;
+  margin: 10px;
+  padding: 10px;
+  background-color: #F9CDAD;
+}
+
+#top-cats {
+  float: right;
+  max-width: 25%;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  padding: 5px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #C8C8A9;
+}
+
+#top-cats section {
+  border-style: solid;
+  /*border-color: red;*/
+  border-width: thin;
+  border-radius: 15px;
+  clear: both;
+  margin: 10px;
+  background-color: #83AF9B;
+}
+#top-cats h3 {
+  display: inline-block;
+}
+#top-cats img {
+  border-radius: 50px;
+  float: left;
+  clear: both;
+  display: inline-block;
+  margin: 10px;
+}
+
+#top-cats p {
+  /*display: inline;*/
+  margin: 5px;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+}
+
+footer h4 {
+  float: left;
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 24px;
+}
+
+footer ul {
+  position: relative;
+  top: -60px;
+}
+
+#disclaimer {
+  /*position: relative;*/
+  padding-top: 20px;
+  width: 85%;
+  margin-right: -10px;
+}

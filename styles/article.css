@@ -1,0 +1,75 @@
+main {
+  width: 80%;
+  float: right;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: thin;
+  border-radius: 15px;
+  /*position: absolute;*/
+}
+
+
+.article-header-image img {
+  top: 10px;
+  left: 10px;
+  width: 100%;
+}
+
+.article-contents {
+  padding: 10px;
+}
+
+#article-desc {
+  /* Line it up correctly within the div */
+  /*position: relative;*/
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  padding: 20px 10px 270px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  /* Make it look like meme text */
+  color: white;
+  font-family: impact, sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px black,
+               2px -2px black,
+               -2px 2px black,
+               -2px -2px black;
+}
+
+#article-info {
+  position: absolute;
+  font-size: 12px;
+  font-family: Helvetica;
+  top: 400px;
+  left: 800px;
+  padding: 20px 10px 20px 50px;
+  width: 100%;
+  color: white;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+#social {
+  border: black thin solid;
+  position: absolute;
+  top: 325px;
+  left: 155px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #C8C8A9;
+}
+
+#social h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#social img {
+  height: 50px;
+  width: 50px;
+  display: block;
+  padding: 10px 20px;
+}
