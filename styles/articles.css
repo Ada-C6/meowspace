@@ -1,0 +1,136 @@
+body {
+    font-family: avenir, helvetica, sans-serif;
+    border: black 3px solid;
+}
+
+header {
+    border: black 3px solid;
+    position: fixed;
+    align-self: center;
+    width: 98%;
+    background-color: #8a9fd7;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    text-transform: uppercase;
+}
+
+header h1 {
+    padding-left: 1em;
+    float: left;
+}
+
+header li {
+    border: black 2px solid;
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: #84cab5;
+    font-weight: bold;
+}
+
+article {
+    margin-top: 100px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+main {
+    position: relative; /*to anchor aside elements*/
+}
+
+#title-bar {
+    display: block;
+    text-align: center;
+    border: black 3px solid;
+}
+
+#title-box-font {
+    font-size: 3em;
+}
+
+#post-author-info {
+    border: black 3px solid;
+    display: block;
+    text-align: center;
+    height: 2em;
+}
+
+#post-author-info p {
+    position: relative;
+    top: -10px;
+}
+
+.article-content {
+    border: black 3px solid;
+    margin: 2em 6em 2em 6em;
+}
+
+.article-content * {
+    margin: auto 2em 2em 2em;
+}
+
+.mid-article-imgs {
+    display: block;
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.mid-article-imgs img {
+    max-height: 200px;
+    width: auto;
+    max-width: 30%;
+}
+
+.article-content > img:first-of-type {
+    display: block;
+    width: 80%;
+    margin: 2em auto 2em auto;
+    border: black 2px solid;
+}
+
+#share-sidebar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: black 2px solid;
+}
+
+#share-sidebar img {
+    display: block;
+    width: 80px;
+    height: auto;
+    padding: 6px;
+}
+
+#share-sidebar h3 {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    border: black 3px solid;
+}
+
+footer h4 {
+    float: left;
+    padding: 10px;
+}
+
+footer li {
+    border: black 2px solid;
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: #84cab5;
+    font-weight: bold;
+}
