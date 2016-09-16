@@ -25,7 +25,7 @@ header h1 {
 }
 
 header li {
-    border: black 2px solid;
+    border: black 3px solid;
     list-style-type: none;
     float: right;
     padding: 5px;
@@ -50,7 +50,7 @@ main h1, h2 {
 }
 
 article {
-    border: black 2px solid;
+    border: black 3px solid;
     padding: .5em 2em 0 2em;
     margin-right: 20px;
 }
@@ -61,9 +61,7 @@ article img {
 
 article p {
     display: none;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    border: black 3px solid;
 }
 
 article p:first-of-type {
@@ -79,7 +77,7 @@ article p:first-of-type {
 #top-cats {
     float: right;
     max-width: 35%;
-    border: black 2px solid;
+    border: black 3px solid;
     position: relative;
     padding: 0;
 }
@@ -107,7 +105,7 @@ article p:first-of-type {
 
 #top-cats section {
     clear: both;
-    border: black 2px solid;
+    border: black 3px solid;
     height: 130px;
     margin: 0;
 }
