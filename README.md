@@ -1,6 +1,6 @@
 # Meowspace
 
-This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project.
+This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/classroom/rule-of-three.md) project.
 
 ## Learning Goals
 - Practice Layout Techniques
